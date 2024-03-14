@@ -1,6 +1,6 @@
 const NotFound = () => {
     return (
-        <div>Error de busqueda</div>
+        <div>Error de busqueda </div>
     )
 }
 

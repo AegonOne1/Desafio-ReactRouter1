@@ -9,12 +9,11 @@ function NavBar() {
       <Navbar bg="danger" data-bs-theme="dark">
         <Container>
         <Nav className="me-auto">
-            <Nav.Link><Link to="/">Home</Link></Nav.Link>
-            <Nav.Link><Link to="/contact">Contacto</Link></Nav.Link>
+            <Nav.Link><Link className='inicio' to="/">🏠Home</Link></Nav.Link>
+            <Nav.Link><Link className='contacto' to="/contact">📒Contacto</Link></Nav.Link>
         </Nav>
         <Navbar.Collapse className="justify-content-end">
-            <Navbar.Brand href="#home">Happy Cake</Navbar.Brand>
-            
+            <Navbar.Brand href="#home">Happy Cake 🍰</Navbar.Brand>
         </Navbar.Collapse>
         </Container>
       </Navbar>
